@@ -14,9 +14,8 @@ namespace User_API.Models.User
         public string IdNumber { get; set; }
         public string EmailAddress { get; set; }
 
-
-        public Title.Title Title { get; set; }
         public int TitleId { get; set; }
+        public Title.Title Title { get; set; }
 
         public int GenderId { get; set; }
         public Gender.Gender Gender { get; set; }
