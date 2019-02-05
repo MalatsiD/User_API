@@ -13,7 +13,7 @@ namespace User_API.Data
 
         public DataConnection()
         {
-            string connectionString = "";
+            string connectionString = "Data Source=DESKTOP-2EV6351\\SQLEXPRESS;Initial Catalog=School_Db;Integrated Security=SSPI;";
             dbConnection = new SqlConnection(connectionString);
         }
 

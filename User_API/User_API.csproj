@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Models\AddressType\DAL\" />
-    <Folder Include="Models\Address\DAL\" />
     <Folder Include="Models\CommunicationPreference\DAL\" />
     <Folder Include="Models\ContactNumber\DAL\" />
     <Folder Include="Models\Employer\DAL\" />
@@ -19,7 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
 </Project>

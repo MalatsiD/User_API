@@ -1,0 +1,14 @@
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\bin\Debug\netcoreapp2.1\User_API.deps.json
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\bin\Debug\netcoreapp2.1\User_API.runtimeconfig.json
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\bin\Debug\netcoreapp2.1\User_API.runtimeconfig.dev.json
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\bin\Debug\netcoreapp2.1\User_API.dll
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.csprojAssemblyReference.cache
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.csproj.CoreCompileInputs.cache
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.RazorAssemblyInfo.cache
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.RazorAssemblyInfo.cs
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.AssemblyInfoInputs.cache
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.AssemblyInfo.cs
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.RazorTargetAssemblyInfo.cache
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\bin\Debug\netcoreapp2.1\User_API.pdb
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.dll
+C:\Users\Modise\Documents\Modise_Folders\Projects\School_App\Application\User_API\User_API\obj\Debug\netcoreapp2.1\User_API.pdb
