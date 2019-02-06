@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\AddressType\DAL\" />
     <Folder Include="Models\CommunicationPreference\DAL\" />
     <Folder Include="Models\ContactNumber\DAL\" />
     <Folder Include="Models\Employer\DAL\" />
