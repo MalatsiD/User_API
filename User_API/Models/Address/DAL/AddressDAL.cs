@@ -24,9 +24,9 @@ namespace User_API.Models.Address.DAL
 
                 await SqlMapper.QuerySingleOrDefaultAsync(dbConnection, "sp_AddAddress", dynamicParameters, commandType: CommandType.StoredProcedure);
 
-                bool inserted = dynamicParameters.Get<int>("@Id") > 0;
+                bool isInserted = dynamicParameters.Get<int>("@Id") > 0;
 
-                return inserted;
+                return isInserted;
             }
             catch(Exception)
             {

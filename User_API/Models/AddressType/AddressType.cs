@@ -8,6 +8,6 @@ namespace User_API.Models.AddressType
     public class AddressType
     {
         public int Id { get; set; }
-        public string Type { get; set; }
+        public string AddType { get; set; }
     }
 }

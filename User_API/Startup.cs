@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using User_API.Models.Address.DAL;
+using User_API.Models.AddressType.DAL;
 
 namespace User_API
 {
@@ -27,6 +28,8 @@ namespace User_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IAddressDAL, AddressDAL>();
+            services.AddTransient<IAddressTypeDAL, AddressTypeDAL>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
