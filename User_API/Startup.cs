@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using User_API.Models.Address.DAL;
 using User_API.Models.AddressType.DAL;
+using User_API.Models.CommunicationPreference.DAL;
 
 namespace User_API
 {
@@ -29,6 +30,7 @@ namespace User_API
         {
             services.AddTransient<IAddressDAL, AddressDAL>();
             services.AddTransient<IAddressTypeDAL, AddressTypeDAL>();
+            services.AddTransient<ICommunicationPreferenceDAL, CommunicationPreferenceDAL>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
