@@ -20,9 +20,17 @@ namespace User_API.Controllers
         }
 
         [HttpPost]
-        public async Task<bool> GetAddress(Address address)
+        public async Task<bool> AddAddress(Address address)
         {
             var result = await _addressDAL.AddAddress(address);
+
+            return result;
+        }
+
+        [HttpPut]
+        public async Task<bool> UpdateAddress(Address address)
+        {
+            var result = await _addressDAL.UpdateAddress(address);
 
             return result;
         }
