@@ -19,6 +19,7 @@ using User_API.Models.Gender.DAL;
 using User_API.Models.HomeLanguage.DAL;
 using User_API.Models.Occupation.DAL;
 using User_API.Models.OccupationalStatus.DAL;
+using User_API.Models.Title.DAL;
 
 namespace User_API
 {
@@ -43,6 +44,7 @@ namespace User_API
             services.AddTransient<IOccupationDAL, OccupationDAL>();
             services.AddTransient<IOccupationalStatusDAL, OccupationalStatusDAL>();
             services.AddTransient<IEmployerDAL, EmployerDAL>();
+            services.AddTransient<ITitleDAL, TitleDAL>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
