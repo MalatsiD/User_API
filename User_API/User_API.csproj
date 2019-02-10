@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Employer\DAL\" />
-    <Folder Include="Models\Title\DAL\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
