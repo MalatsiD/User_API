@@ -14,6 +14,7 @@ using User_API.Models.Address.DAL;
 using User_API.Models.AddressType.DAL;
 using User_API.Models.CommunicationPreference.DAL;
 using User_API.Models.ContactNumber.DAL;
+using User_API.Models.Employer.DAL;
 using User_API.Models.Gender.DAL;
 using User_API.Models.HomeLanguage.DAL;
 using User_API.Models.Occupation.DAL;
@@ -41,6 +42,7 @@ namespace User_API
             services.AddTransient<IHomeLanguageDAL, HomeLanguageDAL>();
             services.AddTransient<IOccupationDAL, OccupationDAL>();
             services.AddTransient<IOccupationalStatusDAL, OccupationalStatusDAL>();
+            services.AddTransient<IEmployerDAL, EmployerDAL>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
