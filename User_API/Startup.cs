@@ -13,6 +13,11 @@ using Microsoft.Extensions.Options;
 using User_API.Models.Address.DAL;
 using User_API.Models.AddressType.DAL;
 using User_API.Models.CommunicationPreference.DAL;
+using User_API.Models.ContactNumber.DAL;
+using User_API.Models.Gender.DAL;
+using User_API.Models.HomeLanguage.DAL;
+using User_API.Models.Occupation.DAL;
+using User_API.Models.OccupationalStatus.DAL;
 
 namespace User_API
 {
@@ -31,6 +36,11 @@ namespace User_API
             services.AddTransient<IAddressDAL, AddressDAL>();
             services.AddTransient<IAddressTypeDAL, AddressTypeDAL>();
             services.AddTransient<ICommunicationPreferenceDAL, CommunicationPreferenceDAL>();
+            services.AddTransient<IContactNumberDAL, ContactNumberDAL>();
+            services.AddTransient<IGenderDAL, GenderDAL>();
+            services.AddTransient<IHomeLanguageDAL, HomeLanguageDAL>();
+            services.AddTransient<IOccupationDAL, OccupationDAL>();
+            services.AddTransient<IOccupationalStatusDAL, OccupationalStatusDAL>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

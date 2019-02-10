@@ -5,12 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ContactNumber\DAL\" />
     <Folder Include="Models\Employer\DAL\" />
-    <Folder Include="Models\Gender\DAL\" />
-    <Folder Include="Models\HomeLanguage\DAL\" />
-    <Folder Include="Models\OccupationalStatus\DAL\" />
-    <Folder Include="Models\Occupation\DAL\" />
     <Folder Include="Models\Title\DAL\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
