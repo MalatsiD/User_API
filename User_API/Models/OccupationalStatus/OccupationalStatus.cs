@@ -8,7 +8,7 @@ namespace User_API.Models.OccupationalStatus
     public class OccupationalStatus
     {
         public int Id { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
         public int SortOrder { get; set; }
     }
 }
