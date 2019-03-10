@@ -19,7 +19,7 @@ namespace User_API.Models.Address.DAL
                 dynamicParameters.Add("@StreetAddress", address.StreetAddress);
                 dynamicParameters.Add("@Town", address.Town);
                 dynamicParameters.Add("@Code", address.Code);
-                dynamicParameters.Add("@UserId", address.UserId);
+                dynamicParameters.Add("@PersonId", address.PersonId);
                 dynamicParameters.Add("@Id", DbType.Int32, direction: ParameterDirection.Output);
 
                 await SqlMapper.QuerySingleOrDefaultAsync(dbConnection, "sp_AddAddress", dynamicParameters, commandType: CommandType.StoredProcedure);
@@ -83,7 +83,7 @@ namespace User_API.Models.Address.DAL
                 dynamicParameters.Add("@StreetAddress", address.StreetAddress);
                 dynamicParameters.Add("@Town", address.Town);
                 dynamicParameters.Add("@Code", address.Code);
-                dynamicParameters.Add("@UserId", address.UserId);
+                dynamicParameters.Add("@PersonId", address.PersonId);
                 dynamicParameters.Add("@Id", address.Id);
 
                 await SqlMapper.QuerySingleOrDefaultAsync(dbConnection, "sp_UpdateAddress", dynamicParameters, 

@@ -10,6 +10,6 @@ namespace User_API.Models.ContactNumber
         public int Id { get; set; }
         public int ContactTypeId { get; set; }
         public string Contact { get; set; }
-        public int UserId { get; set; }
+        public int PersonId { get; set; }
     }
 }
