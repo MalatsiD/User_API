@@ -12,7 +12,7 @@ namespace User_API.Models.Address
         public string Town { get; set; }
         public int Code { get; set; }
 
-        public int UserId { get; set; }
+        public int PersonId { get; set; }
 
         public int AddressTypeId { get; set; }
         public AddressType.AddressType AddressType { get; set; }

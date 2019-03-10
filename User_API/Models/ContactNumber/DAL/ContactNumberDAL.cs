@@ -17,7 +17,7 @@ namespace User_API.Models.ContactNumber.DAL
                 DynamicParameters dynamicParameters = new DynamicParameters();
                 dynamicParameters.Add("@ContactTypeId", contactNumber.ContactTypeId);
                 dynamicParameters.Add("@Contact", contactNumber.Contact);
-                dynamicParameters.Add("@UserId", contactNumber.UserId);
+                dynamicParameters.Add("@PersonId", contactNumber.PersonId);
                 dynamicParameters.Add("@Id", DbType.Int32, direction: ParameterDirection.Output);
 
                 await SqlMapper.QuerySingleOrDefaultAsync(dbConnection, "sp_AddContactNumber",
@@ -80,7 +80,7 @@ namespace User_API.Models.ContactNumber.DAL
                 DynamicParameters dynamicParameters = new DynamicParameters();
                 dynamicParameters.Add("@ContactTypeId", contactNumber.ContactTypeId);
                 dynamicParameters.Add("@Contact", contactNumber.Contact);
-                dynamicParameters.Add("@UserId", contactNumber.UserId);
+                dynamicParameters.Add("@PersonId", contactNumber.PersonId);
                 dynamicParameters.Add("@Id", contactNumber.Id);
 
                 await SqlMapper.QuerySingleOrDefaultAsync(dbConnection, "sp_UpdateContactNumber",
